@@ -141,4 +141,4 @@ Footer4.propTypes = {
   logoSrc: PropTypes.string,
 }
 
-export default Footer4
+export default Footer4;
