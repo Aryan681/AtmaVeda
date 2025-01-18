@@ -1,0 +1,176 @@
+/* src/styles/KundaliChart.css */
+
+
+
+/* Custom styles for Kundali chart */
+.kundali-container {
+  background-color: #fff9e6;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 2rem auto;
+  position: relative;
+}
+
+/* Decorative borders */
+.kundali-border {
+  position: absolute;
+  background-color: #dc2626; /* red-600 */
+}
+
+.kundali-border-horizontal {
+  height: 4px;
+  left: 4rem;
+  right: 4rem;
+}
+
+.kundali-border-vertical {
+  width: 4px;
+  top: 4rem;
+  bottom: 4rem;
+}
+
+.kundali-border-top {
+  top: 1rem;
+}
+
+.kundali-border-bottom {
+  bottom: 1rem;
+}
+
+.kundali-border-left {
+  left: 1rem;
+}
+
+.kundali-border-right {
+  right: 1rem;
+}
+
+/* Corner decorations */
+.kundali-corner {
+  position: absolute;
+  width: 4rem;
+  height: 4rem;
+}
+
+.kundali-corner-element {
+  position: absolute;
+  height: 0.5rem;
+}
+
+.kundali-corner-red {
+  width: 2rem;
+  background-color: #dc2626;
+}
+
+.kundali-corner-blue {
+  width: 1rem;
+  background-color: #60a5fa;
+}
+
+.kundali-corner-green {
+  width: 1rem;
+  background-color: #4ade80;
+}
+
+/* Main chart grid */
+.kundali-chart {
+  border: 2px solid #1f2937;
+  aspect-ratio: 4/3;
+  margin: 2rem 3rem;
+  position: relative;
+}
+
+.kundali-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 100%;
+}
+
+/* House styles */
+.kundali-house {
+  border: 1px solid #1f2937;
+  padding: 0.5rem;
+  position: relative;
+  min-height: 100px;
+}
+
+.kundali-house-number {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.kundali-zodiac {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.kundali-planets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.kundali-planet {
+  font-size: 0.75rem;
+  margin: 0.125rem 0;
+}
+
+/* Center box */
+.kundali-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.kundali-center-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.kundali-center-date {
+  font-size: 0.75rem;
+  color: #4b5563;
+}
+
+/* SVG lines */
+.kundali-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.kundali-line {
+  stroke: #1f2937;
+  stroke-width: 1;
+  fill: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .kundali-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .kundali-chart {
+    margin: 1rem;
+  }
+
+  .kundali-house {
+    min-height: 80px;
+  }
+}
