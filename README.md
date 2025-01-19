@@ -17,23 +17,23 @@ Insights into career, relationships, personal growth, family, and more.
 Daily horoscopes to plan your day and monthly horoscopes to stay ahead of the curve.
 
 
- ##💎 AI Recommendations
+ ## 💎 AI Recommendations
 
 Gemstone Suggestions: Find the perfect gemstone to enhance your energy and luck.
 Pooja (Rituals): Simple, meaningful rituals explained with their benefits and importance.
 Lifestyle Guidance: Practical do’s and don’ts tailored to your astrological needs.
  
  
- ##🧘‍♀️ Spiritual Content
+ ##  🧘‍♀️ Spiritual Content
 
 Meditation and Fitness Suggestions: Boost your well-being with activities aligned to your horoscope.
 Sleep Support: Curated content to help you rest and rejuvenate based on your spiritual energy.
 
- ##🤖 Chatbot Advisor
+ ## 🤖 Chatbot Advisor
 Meet your friendly spiritual chatbot, always ready to answer your questions and explain predictions.
 Ask about rituals, gemstones, or anything spiritual—it’s like having a guide in your pocket.
 
- ##🌟 How Do We Measure Success?
+ ## 🌟 How Do We Measure Success?
 We’re not just building a tool; we’re creating an experience. Here’s what we aim for:
 
 What Makes Us Stand Out
