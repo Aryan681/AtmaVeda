@@ -24,15 +24,16 @@ const Navbar8 = (props) => {
   }, []);
 
   return (
+    
     <header className="navbar8-container1">
-      <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
-        <img alt={props.logoAlt} src={props.logoSrc} className="navbar8-image1" />
+      <header data-thq="thq-navbar" className="navbar8-navbar-interactive " >
+        <img alt={props.logoAlt} src="" className="navbar8-image1" /> 
         <div data-thq="thq-navbar-nav" className="navbar8-desktop-menu">
           <nav className="navbar8-links1">
-            <Link to={props.link1Url} className="navbar8-link11 thq-link thq-body-small">
+            <Link to="/" className="navbar8-link11 thq-link thq-body-small">
               {props.link1 ?? <Fragment><span className="navbar8-text27">Home</span></Fragment>}
             </Link>
-            <Link to={props.link2Url} className="thq-link thq-body-small">
+            <Link to="/kund" className="thq-link thq-body-small">
               {props.link2 ?? <Fragment><span className="navbar8-text16">My Kundali</span></Fragment>}
             </Link>
             <Link
@@ -41,25 +42,19 @@ const Navbar8 = (props) => {
             
              
             >
+            
               {props.link3 ?? <Fragment><span className="navbar8-text14">Blog And Content</span></Fragment>}
             </Link>
             <div
               onClick={() => setLink5DropdownVisible(!link5DropdownVisible)}
               className="navbar8-link4-dropdown-trigger"
             >
-              <span className="thq-link thq-body-small">
+              <Link to="/chat" className="navbar8-image-link">
                 {props.link4 ?? <Fragment><span className="navbar8-text20">Chat With AI Astrologer</span></Fragment>}
-              </span>
+                </Link>
             </div>
           </nav>
-          <div className="navbar8-buttons1">
-            <button className="navbar8-action11 thq-button-filled thq-button-animated">
-              <span>{props.action1 ?? <Fragment><span className="navbar8-text24">Login</span></Fragment>}</span>
-            </button>
-            <button className="navbar8-action21 thq-button-outline thq-button-animated">
-              <span>{props.action2 ?? <Fragment><span className="navbar8-text25">Secondary Action</span></Fragment>}</span>
-            </button>
-          </div>
+          
         </div>
         <div data-thq="thq-burger-menu" className="navbar8-burger-menu">
           <svg viewBox="0 0 1024 1024" className="navbar8-icon14">
@@ -83,7 +78,7 @@ const Navbar8 = (props) => {
               <Link to={props.link2Url} className="thq-link thq-body-small">
                 {props.link2 ?? <Fragment><span className="navbar8-text16">My Kundali</span></Fragment>}
               </Link>
-              <Link to={props.link3Url} className="navbar8-link32 thq-link thq-body-small">
+              <Link to="/blog" className="navbar8-link32 thq-link thq-body-small">
                 {props.link3 ?? <Fragment><span className="navbar8-text14">Blog And Content</span></Fragment>}
               </Link>
               <div className="navbar8-link4-accordion">
@@ -115,14 +110,7 @@ const Navbar8 = (props) => {
                 )}
               </div>
             </nav>
-            <div className="navbar8-buttons2">
-              <button className="thq-button-filled">
-                <span>{props.action1 ?? <Fragment><span className="navbar8-text24">Login</span></Fragment>}</span>
-              </button>
-              <button className="thq-button-outline">
-                <span>{props.action2 ?? <Fragment><span className="navbar8-text25">Secondary Action</span></Fragment>}</span>
-              </button>
-            </div>
+            
           </div>
         </div>
       </header>
@@ -144,7 +132,7 @@ Navbar8.defaultProps = {
   link2: undefined,
   logoSrc: 'https://static.teleporthq.io/project-asset-assets/astroai_logo_6e66e2c.png',
   action1: undefined,
-  link4: undefined,
+  link4: "/chat",
   action2: undefined,
   page1ImageAlt: 'AstroAI Image 1',
   page1ImageSrc: 'https://images.unsplash.com/photo-1500811970670-04d5d97848b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTczNzIwOTI5NXw&ixlib=rb-4.0.3&q=80&w=1080',

@@ -38,7 +38,7 @@
   align-items: center;
   margin-left: var(--dl-space-space-twounits);
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-evenly;
 }
  
 .navbar8-link11 {

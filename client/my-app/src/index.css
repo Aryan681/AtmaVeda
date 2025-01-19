@@ -596,7 +596,10 @@
   }
    
   @media(max-width: 479px) {
-    .thq-section-padding {
+    .thq-section-padding {.home-text117 {
+        display: inline-block;
+      }
+       
       padding: var(--dl-space-space-oneandhalfunits);
     }
     .thq-flex-column {
