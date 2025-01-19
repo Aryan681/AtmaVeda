@@ -1,4 +1,4 @@
-##  🌟 AI-Powered Spiritual Guide
+##  🌟 Atma-Ved a Spiritual Guide
 Welcome to the AI-Powered Spiritual Guide, your personal companion on the journey of self-discovery and spiritual growth. This platform blends ancient wisdom with modern AI to provide personalized astrology and numerology-based insights. Whether you’re looking for clarity, balance, or guidance, we’ve got you covered!
 
  ## 🌌 Our Mission
