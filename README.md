@@ -19,8 +19,8 @@ Daily horoscopes to plan your day and monthly horoscopes to stay ahead of the cu
 
  ## 💎 AI Recommendations
 
-Gemstone Suggestions: Find the perfect gemstone to enhance your energy and luck.
-Pooja (Rituals): Simple, meaningful rituals explained with their benefits and importance.
+from Gemstone Suggestions that allow you to Find the perfect gemstone to enhance your energy and luck.
+to Pooja (Rituals): Simple, meaningful rituals explained with their benefits and importance.
 Lifestyle Guidance: Practical do’s and don’ts tailored to your astrological needs.
  
  
