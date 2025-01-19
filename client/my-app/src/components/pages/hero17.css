@@ -20,7 +20,8 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
-  Justify-content: flex-end
+  Justify-content: flex-end;
+  color : white;
 }
  
 .hero17-content1 {
@@ -39,6 +40,8 @@
  
 .hero17-text1 {
   text-align: center;
+  color: white;
+  text-shadow: 5px;
 }
  
 .hero17-text2 {

@@ -33,9 +33,9 @@ const Hero17 = (props) => {
       <div className="hero17-content1">
         <h1 className="hero17-text1 thq-heading-1">
           {props.heading1 ?? (
-            <Fragment>
+          
               <span className="hero17 ">Welcome to Astrology Hub</span>
-            </Fragment>
+           
           )}
         </h1>
         <p className="hero17-text2 thq-body-large">
@@ -49,24 +49,8 @@ const Hero17 = (props) => {
         </p>
       </div>
       <div className="hero17-actions">
-        <button className="thq-button-filled hero17-button1">
-          <span className="thq-body-small">
-            {props.action1 ?? (
-              <Fragment>
-                <span className="hero17-text7">Get Your Personalized Horoscope</span>
-              </Fragment>
-            )}
-          </span>
-        </button>
-        <button className="thq-button-outline hero17-button2">
-          <span className="thq-body-small">
-            {props.action2 ?? (
-              <Fragment>
-                <span className="hero17-text8">Learn More</span>
-              </Fragment>
-            )}
-          </span>
-        </button>
+        
+        
       </div>
     </div>
     <div className="hero17-content2">
